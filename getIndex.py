@@ -1,6 +1,6 @@
 def getIndex(chaine:str, sous_chaine:str):
     """THis one will return the index of last caracter of 
-    sous_chaine which is in a chaine.
+    sous_chaine which is in a chaine of type STRING.
     
     RETURNS index or 0
     """
