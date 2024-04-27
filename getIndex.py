@@ -7,10 +7,10 @@ def getIndex(chaine:str, sous_chaine:str):
 
     worth = True
     length_chaine = len(chaine)
-    i=0
-    j=0
-    found = 0
-    while (worth and (i < (length_chaine-1)) and (j < len(sous_chaine))):
+    i=0 #counter for chaine
+    j=0 #counter for sous_chaine
+    found = 0 #the number of occurence
+    while (worth and (i < length_chaine) and (j < len(sous_chaine))):
         if sous_chaine[j] == chaine[i]:
             i += 1
             j += 1
