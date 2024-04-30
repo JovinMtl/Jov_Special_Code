@@ -3,7 +3,7 @@
 from random import choice
 
 #importing the model to check on
-from pharma.models import UmutiSold
+from pharma.models import UmutiSold 
 
 class GenerateCode:
     """Generate a code and inscript in a table of codes that have been
@@ -52,6 +52,7 @@ class GenerateCode:
         while worth:
             current_code = self.gene()
             try:
+                #we want to verify existence of that code in UmutiSold
                 verify = UmutiSold.objects.get(code_operation=current_code)
             except UmutiSold.DoesNotExist:
                 worth = False
