@@ -1,7 +1,7 @@
 
 """Pre-requisite: Django & DRF"""
 
-from unittest.mock import  Mock
+# from unittest.mock import  Mock
 from rest_framework.test import APITestCase
 from django.db.utils import OperationalError
 
