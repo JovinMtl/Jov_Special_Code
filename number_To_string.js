@@ -20,3 +20,6 @@ const number_To_string = (value=10000) => {
     return converted
 }
 
+const data = 15000
+console.log("The formatted version of :", data, 'is: ', number_To_string(data))
+
